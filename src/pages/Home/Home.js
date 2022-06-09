@@ -11,6 +11,7 @@ const Home = () => {
             <AboutMe />
             <Details />
             <Projects />
+
         </div>
     );
 };
