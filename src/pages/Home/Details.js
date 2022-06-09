@@ -3,7 +3,7 @@ import './styles/home.css';
 
 const Details = () => {
     return (
-        <div className='detail'>
+        <div className='detail m-20 '>
             <div className="card w-96 bg-base-100 shadow-xl ">
                 <figure className="px-10 pt-10">
                     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" className="bi bi-code-slash" viewBox="0 0 16 16">
@@ -12,11 +12,11 @@ const Details = () => {
                 </figure>
                 <div className="card-body items-center text-center">
                     <h4 className="card-title">Junior Web Developer</h4>
-                    <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-                    <p>Languages I speak:</p>
-                    <p>HTML, Pug, Slim, CSS, Sass, Less</p>
+                    <p>I value simple content structure, clean design patterns, thoughtful interactions and clean and optimized code</p>
+                    <p className='font-bold'>Languages I speak:</p>
+                    <p>HTML, CSS, JavaScript, C, C++,Java</p>
                     <p>Dev Tools:</p>
-                    <p>Atom, Bitbucket, Bootstrap, Bulma, Codekit, Codepen, Github, Gitlab, Terminal</p>
+                    <p>VScode, github, Bootstrap, tailwind, Codekit, Terminal</p>
 
                 </div>
             </div>
@@ -28,17 +28,9 @@ const Details = () => {
                 </figure>
                 <div className="card-body items-center text-center">
                     <h4 className="card-title">Student</h4>
-                    <p>I genuinely care about people, and love helping fellow designers work on their craft.</p>
-                    <p>Experiences I draw from:</p>
-                    <p>UX/UI, Product design, Freelancing</p>
-                    <p>Mentor Stats:</p>
-                    <p>5 years experience
-                        26 short courses
-                        42 bootcamps
-                        125+ students
-                        1,400+ mentor sessions
-                        60+ group critiques
-                        12,000+ comments</p>
+                    <p>I am a 3rd year undergrad student studying Computer Science and Engineering at Jahangirnagar University.</p>
+                    <p className='font-bold'>Courses studied:</p>
+                    <p>Data Stuctures, Algorithms, Operating Systems, Discreate Maths, Database Management System, Object Oriented Programming, Computer graphics, Computational Geometry, Advanced Data Structures and Algorithms etc.</p>
                 </div>
             </div>
         </div>

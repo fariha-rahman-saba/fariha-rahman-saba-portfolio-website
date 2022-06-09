@@ -6,7 +6,7 @@ const Banner = () => {
             <div className="hero-content text-center">
                 <div className="max-w-md">
                     <h1 className="text-3xl font-bold">Programmer, Junior Web Developer & Student</h1>
-                    <p className="py-6">I design and code beautifully simple things, and I love what I do.</p>
+                    <p className="py-6 text-xl">I design and code beautifully simple things, and I love what I do.</p>
 
                 </div>
             </div>
