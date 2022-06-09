@@ -2,5 +2,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
-    justify-content: space-around;
+    grid-row-gap: 20px;
+
 }
