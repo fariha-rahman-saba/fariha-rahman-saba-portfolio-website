@@ -23,7 +23,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-outline btn-success">Resume</a>
+                <a className="btn btn-outline btn-success" href='https://drive.google.com/file/d/16rlOIUOgcpo_zT5LhFTvsBk0sjX0cFHK/view?usp=sharing' target="_blank">Resume</a>
             </div>
         </div>
     );

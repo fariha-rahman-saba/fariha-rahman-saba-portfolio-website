@@ -1,0 +1,10 @@
+.screenshot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+}
+
+.screenshot img {
+    width: 350px;
+    height: 300px;
+}
