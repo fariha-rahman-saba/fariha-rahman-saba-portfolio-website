@@ -5,3 +5,25 @@
     grid-row-gap: 20px;
 
 }
+
+@media only screen and (max-width:576px) {
+    .detail {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+
+    }
+
+}
+
+/* for tablets */
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .detail {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+
+    }
+}
