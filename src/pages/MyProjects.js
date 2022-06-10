@@ -11,6 +11,14 @@ import project3 from '../assets/screenshots/proj3.PNG';
 import project3_ss1 from '../assets/screenshots/proj3_ss1.PNG';
 import project3_ss2 from '../assets/screenshots/proj3_ss2.PNG';
 import project3_ss3 from '../assets/screenshots/proj3_ss3.PNG';
+import project4 from '../assets/screenshots/proj4.png';
+import project4_ss1 from '../assets/screenshots/proj4_ss1.png';
+import project4_ss2 from '../assets/screenshots/proj4_ss2.png';
+import project4_ss3 from '../assets/screenshots/proj4_ss3.png';
+import project5 from '../assets/screenshots/proj5.png';
+import project5_ss1 from '../assets/screenshots/proj5_ss1.png';
+import project5_ss2 from '../assets/screenshots/proj5_ss2.png';
+import project5_ss3 from '../assets/screenshots/proj5_ss3.png';
 import './styles/myprojects.css';
 
 const MyProjects = () => {
@@ -137,9 +145,10 @@ const MyProjects = () => {
                     <ul className='list-disc'>
                         <li>A responsive independent online course selling website with email and password as well
                             as Google authentication.</li>
+                        <li>In Home page I have added header, banner, courses, reviews and footer section.</li>
                         <li>User can browse courses of the owner and see the reviews of the buyers.</li>
                         <li>User can read blogs and see about page of the owner.</li>
-                        <li>User can read blogs and see about page of the owner.</li>
+
                         <li>I have also created a 404 route.</li>
 
                     </ul>
@@ -170,6 +179,95 @@ const MyProjects = () => {
                 />
             </div>
 
+            <h1 className='text-3xl font-bold mt-20'>Product Reviewer</h1>
+
+            <div className="card lg:card-side bg-base-100   ">
+                <figure className='w-88'>
+                    <img src={project4} alt="Album"
+                    />
+
+                </figure>
+                <div className="card-body items-center text-center">
+
+                    <h4 className="text-xl font-bold">Details:</h4>
+                    <ul className='list-disc'>
+                        <li>In this project we have created a SPA with Home, Reviews, Dashboard, Blogs and About components.</li>
+                        <li>In Reviews component we have shown reviews from customers.</li>
+                        <li>In Dashboard component we have drawn 4 types of revenue vs investment charts.</li>
+                        <li>In Blogs we have answered some questions.</li>
+                        <li>I have also created a 404 route.</li>
+
+                    </ul>
+                    <p className='font-bold'>A list of technologies used within the project:</p>
+                    <ul className='list-disc'>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>ReactJS</li>
+                    </ul>
+                    <div className="card-actions justify-center">
+                        <a href="https://product-reviewer.netlify.app/" target="_blank"><button className="btn btn-accent btn-sm text-white">Live site</button></a>
+                        <a href="https://github.com/fariha-rahman-saba/product-reviewer" target="_blank"><button className="btn btn-accent btn-sm text-white">Client side code</button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <h4 className="text-xl font-bold mt-5 ml-5">Screenshots</h4>
+            <div className='screenshot ml-5'>
+
+                <img src={project4_ss1} alt="Album"
+                />
+                <img src={project4_ss2} alt="Album"
+                />
+                <img src={project4_ss3} alt="Album"
+                />
+            </div>
+
+            <h1 className='text-3xl font-bold mt-20'>Lucky Shop</h1>
+
+            <div className="card lg:card-side bg-base-100   ">
+                <figure className='w-88'>
+                    <img src={project5} alt="Album"
+                    />
+
+                </figure>
+                <div className="card-body items-center text-center">
+
+                    <h4 className="text-xl font-bold">Details:</h4>
+                    <ul className='list-disc'>
+                        <li>In this project we have created a SPA with Products and Blogs components.</li>
+                        <li>User can add products to cart.</li>
+                        <li>By clicking CHOOSE 1 FOR ME button the website will select one random product from the cart.</li>
+                        <li>By clicking CHOOSE AGAIN button the cart will be cleared and the user can choose again.</li>
+                        <li>In the blogs section I have answered some questions.</li>
+
+                    </ul>
+                    <p className='font-bold'>A list of technologies used within the project:</p>
+                    <ul className='list-disc'>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>ReactJS</li>
+                    </ul>
+                    <div className="card-actions justify-center">
+                        <a href="https://lucky-shop.netlify.app/" target="_blank"><button className="btn btn-accent btn-sm text-white">Live site</button></a>
+                        <a href="https://github.com/fariha-rahman-saba/lucky-one" target="_blank"><button className="btn btn-accent btn-sm text-white">Client side code</button></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <h4 className="text-xl font-bold mt-5 ml-5">Screenshots</h4>
+            <div className='screenshot ml-5'>
+
+                <img src={project5_ss1} alt="Album"
+                />
+                <img src={project5_ss2} alt="Album"
+                />
+                <img src={project5_ss3} alt="Album"
+                />
+            </div>
         </div>
     );
 };
